@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cheat Sheet</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<div id="overall">
+<body>
+    <div class="intro">
+   <h1>CSS Selectors and Specificity</h1>
+   <p>If there are two or more conflicting CSS rules
+       that point to the same element,<br>the browser follows
+       some rules to determine which one is the most 
+       specific and therefore wins out.</p>
+       <hr>
+       </div>
+   <div class="selection">
+   <h2>CSS Selectors</h2>
+       <table>
+           <thead>
+               <th colspan="3" class="main">Specificity Hierarchy</th>
+           </thead>
+           <tbody>
+               <tr>
+                <td class="data">Type Selectors</td>
+                <td class="data">Class Selectors</td>
+                <td class="data">ID Selectors</td>
+               </tr>
+               <tr>
+                   <td>tags</td>
+                   <td>attributes</td>
+                   <td>unique identifier</td>
+               </tr>
+               <tr>
+                   <td>=1</td>
+                   <td>=10</td>
+                   <td>=100</td>
+               </tr>
+           </tbody>
+       </table>
+       </div>
+    </div>
+</body>
+</html>
